@@ -15,6 +15,9 @@ body {
   margin: 0;
   color: white;
   overflow: auto;
+  -webkit-background-size: cover; /* Make sure it's responsive for Safari */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; 
 }
 
 header {
